@@ -12,5 +12,5 @@ def countword():
     for i in range(1,len(w)):
         if w[0]==revword(w[i]):
            count = count + 1 
-    return
+    return count
 countword()
